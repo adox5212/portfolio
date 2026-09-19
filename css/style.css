@@ -132,7 +132,7 @@ a:hover { color: #5ff0c5; }
 .qr-img { width: 100%; max-width: 240px; border-radius: 10px; }
 .qr-label { color: var(--muted); font-family: var(--font-mono); font-size: 12.5px; }
 
-.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.stats-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
 .stat {
   background: var(--card); border: 1px solid var(--line); border-radius: 12px;
   padding: 16px 10px; text-align: center;
